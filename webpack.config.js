@@ -118,7 +118,7 @@ module.exports = {
     // Подключаем файл html, стили и скрипты встроятся автоматически
     new HtmlWebpackPlugin({
       title: 'GPS',
-      template: '/index.html',
+      template: './index.html',
       inject: true,
       minify: {
         removeComments: true,
